@@ -149,6 +149,3 @@ All rights reserved.
 
 ---
 
-## 📞 Support
-
-For inquiries or support, please contact the system administrator or project owner.
