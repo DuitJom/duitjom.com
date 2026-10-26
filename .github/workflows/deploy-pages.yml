@@ -1,4 +1,3 @@
-# Deploy the Vite app to GitHub Pages
 name: Deploy Vite app to GitHub Pages
 
 on:
