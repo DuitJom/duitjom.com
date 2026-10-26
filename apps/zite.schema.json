@@ -1,0 +1,149 @@
+{
+  "tables": [
+    {
+      "id": "tjtJf22sBYN",
+      "sdkName": "duitJomCrmData",
+      "name": "DuitJom CRM Data",
+      "primaryFieldId": "fc6k323DSst",
+      "fields": [
+        {
+          "id": "fc6k323DSst",
+          "sdkName": "name",
+          "definition": {
+            "name": "Name",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "f2bj4kQE7qP",
+          "sdkName": "notes",
+          "definition": {
+            "name": "Notes",
+            "type": "long_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fbiQe58niRa",
+          "sdkName": "active",
+          "definition": {
+            "name": "Active",
+            "type": "checkbox",
+            "template": {}
+          }
+        },
+        {
+          "id": "fudmL68muHC",
+          "sdkName": "user",
+          "definition": {
+            "name": "User",
+            "type": "user",
+            "template": {
+              "internalOnly": true,
+              "allowMultiple": false,
+              "deleteRowWhenUserDeleted": false
+            }
+          }
+        },
+        {
+          "id": "fkKNDvAwdpq",
+          "sdkName": "merchantIdUser",
+          "definition": {
+            "name": "Merchant ID User",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fmkveHkAb83",
+          "sdkName": "passkey",
+          "definition": {
+            "name": "PASSKEY*",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "f7vhzZDHqYg",
+          "sdkName": "ongoing",
+          "definition": {
+            "name": "Ongoing",
+            "type": "checkbox",
+            "template": {
+              "defaultValue": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "thLugKZVVSk",
+      "sdkName": "salesforcedatabase",
+      "name": "Salesforcedatabase",
+      "primaryFieldId": "fjamxgqzCV1",
+      "fields": [
+        {
+          "id": "fjamxgqzCV1",
+          "sdkName": "name",
+          "definition": {
+            "name": "Name",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fhu6nuVkKGy",
+          "sdkName": "notes",
+          "definition": {
+            "name": "Notes",
+            "type": "long_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fkBzZfrtP9R",
+          "sdkName": "active",
+          "definition": {
+            "name": "Active",
+            "type": "checkbox",
+            "template": {}
+          }
+        },
+        {
+          "id": "fvYkHeTSSAC",
+          "sdkName": "httpsWwwDuitjomMy",
+          "definition": {
+            "name": "https://www.duitjom.my",
+            "type": "url",
+            "template": {}
+          }
+        },
+        {
+          "id": "fnH4JoXjgCJ",
+          "sdkName": "merchantIdUser",
+          "definition": {
+            "name": "Merchant ID User",
+            "type": "number",
+            "template": {
+              "numberFormat": "local",
+              "decimalPlaces": 2
+            }
+          }
+        },
+        {
+          "id": "fpGeLx1zMLX",
+          "sdkName": "merchantIdUser2",
+          "definition": {
+            "name": "Merchant ID User-",
+            "type": "number",
+            "template": {
+              "numberFormat": "local",
+              "decimalPlaces": 0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

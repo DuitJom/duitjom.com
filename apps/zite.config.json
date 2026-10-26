@@ -1,0 +1,28 @@
+{
+  "project": {
+    "name": "Admin and User Login Dashboard",
+    "basePublicIdentifier": "2f7c16c06957a431"
+  },
+  "integrations": {
+    "gmail": {
+      "type": "gmail",
+      "connectionId": "svc_568741"
+    },
+    "intercom": {
+      "type": "intercom",
+      "connectionId": "svc_568938"
+    },
+    "github": {
+      "type": "github",
+      "connectionId": "svc_569583"
+    }
+  },
+  "envVars": {
+    "ZITE_ADMIN_PASSWORD": {
+      "description": "Admin password for unlocking Database, Record, Security and Settings menus"
+    },
+    "ZITE_ADMIN_USERNAME": {
+      "description": "Admin username for unlocking Database, Record, Security and Settings menus"
+    }
+  }
+}
