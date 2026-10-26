@@ -1,0 +1,39 @@
+{
+  "id": "obvwexdqqo",
+  "accessMode": "external",
+  "authentication": {
+    "signup": "disabled",
+    "authenticationMethods": {
+      "magicLink": true,
+      "googleSignIn": true,
+      "sso": false
+    }
+  },
+  "seoSettings": {
+    "title": "Salesforce Data CRM Management",
+    "description": "Humans and agents work inside the systems that run your business. The result: faster decisions, stronger customer relationships, and non-stop growth. Now with Headless 360, every Salesforce capability is accessible from any tool, any agent, any interface — wherever work happens.",
+    "thumbnailUrl": "https://images.fillout.com/orgid-902182/flowpublicid-obvwexdqqo/widgetid-default/naEAdRKv6UUXXM9GpkGQCq/IMG_0388.png",
+    "faviconUrl": "https://images.fillout.com/orgid-902182/flowpublicid-obvwexdqqo/widgetid-default/n6Eu6XbYx44XuxLD6PthJX/IMG_0378.png"
+  },
+  "envVars": {
+    "ZITE_ADMIN_PASSWORD": {
+      "description": "Admin password for unlocking Database, Record, Security and Settings menus"
+    },
+    "ZITE_ADMIN_USERNAME": {
+      "description": "Admin username for unlocking Database, Record, Security and Settings menus"
+    }
+  },
+  "pwaSettings": {
+    "enabled": true,
+    "appIconUrl": "https://images.fillout.com/orgid-902182/flowpublicid-obvwexdqqo/pwa/ee83539ff9f23230/source-d12b8c70721116762e591870d29165ad",
+    "icons": {
+      "icon192Url": "https://images.fillout.com/orgid-902182/flowpublicid-obvwexdqqo/pwa/ee83539ff9f23230/icon-192.png",
+      "icon512Url": "https://images.fillout.com/orgid-902182/flowpublicid-obvwexdqqo/pwa/ee83539ff9f23230/icon-512.png",
+      "appleTouchIconUrl": "https://images.fillout.com/orgid-902182/flowpublicid-obvwexdqqo/pwa/ee83539ff9f23230/apple-touch-icon.png",
+      "favicon32Url": "https://images.fillout.com/orgid-902182/flowpublicid-obvwexdqqo/pwa/ee83539ff9f23230/favicon-32.png"
+    },
+    "backgroundColor": "#707070"
+  },
+  "brandKitId": "bk_qw4x2snkMc",
+  "brandKitThemeHash": "boyq7k"
+}
